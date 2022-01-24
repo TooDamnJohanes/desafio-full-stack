@@ -1,0 +1,21 @@
+{
+    "name": "desafiofullstack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "desafioFullStack.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "cross-fetch": "^3.1.5",
+        "express": "^4.17.2",
+        "express-validator": "^6.14.0",
+        "node-fetch": "^3.2.0",
+        "pg": "^8.7.1",
+        "sequelize": "^6.14.0"
+    }
+}

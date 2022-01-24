@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio FullStack LexartLabs</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+
+    <div>
+        <label for="webSiteBuscador"></label>
+        <select id="webSiteBuscador" name="webSiteBuscador" required>
+            <option value="" selected disabled hidden>Web</option>
+            <option value="todas">Todas</option>
+            <option value="mercadolivre">MercadoLivre</option>
+            <option value="buscape">Buscapé</option>
+        </select>
+
+        <label for="categorias"></label>
+        <select id="categorias" name="categorias" required>
+            <option value="" selected disabled hidden>Categorias</option>
+            <option value="geladeira">Geladeira</option>
+            <option value="tv">TV</option>
+            <option value="celular">Celular</option>
+        </select>
+        <input type="text" id="searchInput" name="searchInput" required autofocus placeholder="Buscar">
+        <input type="submit" id="myBtn" value="Submit" onclick="onButtonClicked()">
+        <br>
+        <br>
+    </div>
+
+    <div class="products">
+        <div class="container">
+            <h1 class="lg-title">Special Shoes With Offers</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus ducimus, obcaecati quas autem officia eaque dicta sed expedita delectus sapiente amet suscipit accusamus nemo reiciendis nesciunt iure deleniti non!</p>
+            <div class="product-items" id="produtos">
+
+            </div>
+            <script src="desafioFullStack.js"></script>
+
+</body>
+
+</html>
